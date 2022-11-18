@@ -1,0 +1,11 @@
+.form {
+    font-size: 25px;
+}
+
+.form__h2 {
+    font-size: 2em;
+    font-family: cursive;
+    line-height: 1; /*altura de la caja */
+    font-weight: 800; /* grosor de la linea*/
+    color: aquamarine;
+}

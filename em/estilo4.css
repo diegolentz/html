@@ -1,0 +1,13 @@
+/* primero se le da medida
+ en px a la caja contenedora */
+.form {
+    font-size: 25px;
+}
+
+/* despues se le da medida en em */
+
+.form__h2 {
+    font-size: 3em;
+}
+
+/* se multiplican los px por los em */

@@ -1,0 +1,29 @@
+h1{
+    color: red /*!important   , le gana a todos*/;
+}
+.color{
+    color:blue;
+}
+#h1-color{
+    color:green;
+}
+
+h1{
+    color: darkgray;
+}
+
+
+/* jerarquias
+
+!important
+estilos en linea
+identificadores
+
+clases
+pseudo-clases
+atributos
+
+elementos
+pseudo-elementos
+
+*/

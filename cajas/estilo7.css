@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+   background-color: red;
+   display:inline-block;
+   padding: 100px 100px;
+   box-sizing: border-box;
+   text-align: center;
+    /*margin, separacion entre cajas  */
+    margin: 10px;
+    border-radius: 2em;
+    border: 0.5em groove blueviolet;
+    box-shadow: 50px 10px 10px 10px black;
+    text-shadow: 20px 20px 5px black;
+    transform: rotate(-10deg);
+}

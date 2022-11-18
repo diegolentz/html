@@ -1,0 +1,64 @@
+/* /* selector {
+    propiedad: valor
+} */
+
+
+/* selector universal, asterisco (*) */
+/* * {
+    color: brown;
+}  */
+/* ------------------ */
+
+
+/* selector por tipo, nombre etiqueta */
+/* h1{
+    color: red;
+} */
+/* ------------------ */
+
+/* selector por clase, .(punto) */
+/* .titulo-h2{
+    color: red;
+} */
+/* ------------------ */
+
+/* selector por id, numeral (#) el id debe ser unico*/
+
+/* #id-element{
+    color: red;
+} */
+/* ------------------ */
+
+/* selector por atriburo */
+/* [rancio="sii"]{
+    color: red;
+} */
+/* ------------------ */
+
+/* selector descendiente, debe tener hijos */
+/* 
+h2 p {
+    color: blue;
+}
+
+.h2-class p{
+    color: orange;
+}
+
+.h2-class b span{
+    color: yellow;
+}
+.h2-class b {
+    color: aqua;
+} */
+/* ------------------ */
+
+/* selector pseudo clases */
+
+b:hover{
+    color:blueviolet;
+}
+
+.h2-class p:hover{
+    color: coral;
+}
