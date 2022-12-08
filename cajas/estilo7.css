@@ -11,10 +11,10 @@ h2 {
    box-sizing: border-box;
    text-align: center;
     /*margin, separacion entre cajas  */
-    margin: 10px;
+    margin: 20px;
     border-radius: 2em;
     border: 0.5em groove blueviolet;
-    box-shadow: 50px 10px 10px 10px black;
+    box-shadow: 20px 10px 10px 10px black;
     text-shadow: 20px 20px 5px black;
     transform: rotate(-10deg);
 }
