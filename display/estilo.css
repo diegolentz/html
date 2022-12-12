@@ -1,0 +1,17 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif cursive;
+    font-weight: 100;
+    font-size: 40px;
+}
+b {
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border:  10px solid red;
+    background-color: yellow;
+    /* mientras que esta en block se le puede cambiar el tamaño */
+    display: block;
+    /* display: inline block / */
+    overflow: auto;
+    /* overflow permite escrolear dentro de la caja si el contenido la exede */
+}

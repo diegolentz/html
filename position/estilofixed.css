@@ -1,0 +1,14 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 40px;
+}
+body {
+    padding-top: 300px;
+}
+.caja-fixed {
+    background-color: red;
+    /* sirve para dejar texto fijo en el scroll, navbar */
+    position: fixed;
+    margin: -310px;
+}
