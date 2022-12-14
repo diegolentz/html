@@ -12,6 +12,7 @@ b {
     /* mientras que esta en block se le puede cambiar el tamaño */
     display: block;
     /* display: inline block / */
-    overflow: auto;
+
     /* overflow permite escrolear dentro de la caja si el contenido la exede */
+    overflow: auto;
 }
