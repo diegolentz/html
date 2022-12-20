@@ -1,0 +1,28 @@
+
+/*
+object-fit -> contain -> deja bordes
+object-fit -> cover -> la img se ajusta al contenedor
+object-fit -> none -> deja el tamaño original
+object-fit -> scale down -> 
+ */
+* {
+    font-weight: 100px  ;
+    font-size: 20px;
+}
+
+.caja {
+    margin: 0;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    
+}
+
+.caja img {
+    height: 100%;
+    width: 100%;
+    border: 3px solid red;
+    object-fit: cover; /* aca el responsive */
+    object-position: right;
+    cursor: pointer; /* aca modifico el cursor */
+}
