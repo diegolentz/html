@@ -1,0 +1,50 @@
+* {
+    font-weight: 100px  ;
+    
+}
+.container {
+    padding: 20px 5px;
+    background: slateblue;
+
+}
+.caja {
+    background: darkblue;
+    height: 100px;
+    width: 100px;
+    transition-property: left, background, color;
+    transition-duration: 3s, 3s, 3s;
+/*     transition-delay: 1s; */
+    margin: 20px;
+    background: inherit;
+    border: 1px solid white;
+    position: relative;
+    left: 0;
+}
+.caja:hover {
+    background: lightgreen;
+}
+.container:hover > .caja {
+    transition-timing-function: linear;
+    left: 80%;
+    background: black;
+    color: aliceblue;
+}
+.caja:first-child {
+    transition-timing-function: linear;
+}
+.caja:nth-child(2){
+    transition-timing-function: ease;
+
+}
+.caja:nth-child(3){
+    transition-timing-function: ease-in;
+
+}
+.caja:nth-child(4){
+    transition-timing-function: ease-out;
+
+}
+.caja:nth-child(5){
+    transition-timing-function: ease-in-out;
+
+}
