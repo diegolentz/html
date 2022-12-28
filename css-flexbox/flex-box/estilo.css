@@ -1,0 +1,56 @@
+
+/*
+object-fit -> contain -> deja bordes
+object-fit -> cover -> la img se ajusta al contenedor
+object-fit -> none -> deja el tamaño original
+object-fit -> scale down -> 
+ */
+* {
+    font-weight: 100px  ;
+    font-size: 20px;
+}
+.flex-container {
+    display: flex;
+    /* flex-direction: column;
+    /* propiedades del contenedor
+        orienta la direccion de las cajas */ 
+  /*   flex-wrap: wrap; 
+    /* conserva los tamaños y baja la caja 
+        si es necesario */
+    justify-content: space-evenly;
+    /* alineacion del contenido hijo */
+    height: 100vh;
+   /*  align-items: center; */
+    /* esto para alinear eje y para 1 sola linea de cajas
+    para varias lineas, align-content */
+ */
+}
+
+.flex-item {
+    background-color: blue;
+    color: antiquewhite;
+    min-width: 150px;
+    text-align: center;
+    height: 100px; /* en flex hay que declarar alto y ancho */
+    width: 300px;
+    /* flex-grow: 1; */
+    flex: 1;/* agrupa grow,shrink y basis */
+    
+}
+
+.orange {
+    background: orange;
+    flex-basis: 400px;
+    flex-shrink: 1;
+    /* order: 4; */
+    /* cambia el orden */
+}
+
+.green  {
+    background: green;
+    /* align-self: center; */
+    flex-grow: 1;
+    /* reparte el espacio que sobra, se puede poner  en el 
+    contenedor del item (flex-item) o en la caja puntual  */
+    flex-shrink: 1;
+}
