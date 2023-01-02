@@ -1,0 +1,16 @@
+* {
+    font-weight: 100px  ;
+    
+}
+.container {
+    padding: 20px 5px;
+    background: slateblue;
+    width: 300px;
+    height: 150px;
+    margin: 40px;
+    background-image: url(https://imgs.search.brave.com/2FiNO34PPSqUldnpWxiuGZXkwOsw-FWjhdzpWiSqo4g/rs:fit:634:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5h/SjVFV0dHMlhPTHZD/Nml5a21TQ2d3SGFG/aSZwaWQ9QXBp);
+    background-size:cover;
+    background-repeat: no-repeat;
+    border: 3px solid black;
+
+}

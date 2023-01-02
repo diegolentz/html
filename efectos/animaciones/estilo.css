@@ -1,0 +1,36 @@
+* {
+    font-weight: 100px  ;
+    
+}
+.container {
+    padding: 20px 5px;
+    background: slateblue;
+
+}
+.caja {
+    background: darkblue;
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+    animation-name: desplazarse;
+    animation-duration: 1s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes desplazarse {
+    0% {
+        left: 0;
+        background: #025;
+    }
+    50% {
+        background: red;
+
+    }
+    100% {
+        left: 80%;
+        background: green;
+    }
+}
